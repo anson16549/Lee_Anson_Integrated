@@ -1,0 +1,346 @@
+@charset "UTF-8"
+/*CSS Document*/
+
+div, p, body, header, footer, section, article, nav, h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+a:link, a:visited
+{
+	text-decoration: none;
+}
+a:hover, a:active
+{
+	text-decoration: none;
+}
+.hidden {
+	display: none;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-image: url(../images/bacgrud.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 1000px;
+	margin-left: 450px;
+	
+	
+}
+#logo {
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mainNav
+{
+	margin-left: auto;
+	width: 500px; 
+	height: 25px;
+	margin-top: 45px;
+
+}
+
+.mainNav ul {
+	list-style-type: none;
+	padding: 0;
+	
+}
+.mainNav ul li{
+	display: inline;
+	cursor: pointer;
+	font-size: 21px;
+	margin-left: 25px;
+} 
+.mainNav ul li a {
+	text-transform: uppercase;
+	font-family: Arial; 
+	padding: 5px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+
+	
+}
+.mainNav ul li a:hover {
+	padding: 5px;
+	color: #777;
+}
+
+.mainNav ul li a.current {
+	color: #206084;
+}
+
+#promoImageBig {
+	text-align: center;
+	background-image: url(../images/sushi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 920px;
+	height: 300px;
+	line-height: 20px;
+	color: white;
+	
+	
+	
+}
+#promo h1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px; 
+	padding-top: 30px;
+	
+}
+#promo h2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 48px;
+
+}
+#promo p {
+	margin-bottom: 20px;
+}
+#promo a {
+	border: solid 2px #8dcff4;
+	color: white;
+	background-color:#8dcff4;
+	padding: 8px 30px 8px 30px;
+}
+#productInfo {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+#productInfo p {
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.productDescLargeLeft {
+	float: left;
+}
+#productDescLargeLeft p {
+	font-weight: bold;
+	font-family: Arial;
+}
+.productDescLargeRight {
+	float: right;
+
+}
+.productDescLargeRight p {
+	font-weight: bold;
+	font-family: Arial; 
+}
+#mainFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 100px;
+	background-image: url(../images/bacgrud.jpg);
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 250px;
+	margin-left: 450px;
+}
+#footerNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px;
+	width: 920px;
+
+	
+}
+#footerNav h4{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+#footerNav .Box1 {
+	margin-left: 20px;
+}
+#footerNav .Box1 ul li a {
+	color: black;
+		
+}
+#footerNav .Box1 ul {
+	list-style-type: none;
+	padding: 0;
+
+
+}
+
+.Box2 {
+	padding-left: 30px;
+
+}
+
+.Box3 {
+	padding-top: 50px;
+	margin-left: 350px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+.Box3 ul {
+	list-style-type: none;
+	padding: 0;
+	
+}
+.Box3 ul li {
+	display: inline;
+}
+#copyRight h5 {
+	padding-top: 70px;
+	color: rgba(7,7,7,0.5);
+	font-size: 9px;
+
+}
+#promoText
+{
+	
+	background-image: url(../images/sushi2.jpg);
+	width: 950px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 250px;
+	margin-right: 15px;
+	
+}
+/*Menu Page*/
+
+#productInfo 
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-right: 20px;
+}
+.productDesc 
+{
+	width: 200px;
+	
+}
+.productDesc h3 {
+	font-size: 18px;
+	font-family: Arial;
+	color: #f3950e;
+	font-weight: bold;
+	text-align: center;
+}
+.productDesc p {
+	font-family: Arial;
+	font-size: 60px;
+}
+h6 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
+	color: white;
+	padding-top: 70px;
+}
+#promoText p{
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(280,280,280,0.8);
+	border-bottom: 10px;
+}
+
+/*contact page*/
+#contentCon {
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+  	width: 920px;
+}
+#content1 input{
+
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 300px;
+    height: 10px;
+    background-color: #efefef;
+    display: block;
+    border: 1px solid #999;
+    color: #333;
+
+
+}
+#content1 {
+	border: solid 1px #f26c4f;
+	padding: 10px;
+}
+
+
+
+#contactForm textarea {
+	background-color: rgba(194,146,146,0.15);
+}
+
+#contactForm #submit {
+	width: 70px;
+	background-color: #f7be6c;
+	font-family: Arial;
+	color: white;
+	background-color: #f7be6c;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	display: block;
+	height: 30px;
+}
+#contentCon h6 {
+	color: black;
+	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
+	
+	
+}
+#Maparea {
+    width: 50px;
+    margin-left: 50px;
+    padding-bottom: 120px;
+   
+}
+
+
+
